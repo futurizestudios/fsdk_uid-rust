@@ -1,0 +1,11 @@
+[package]
+name = "fsdk_uid"
+version = "0.1.0"
+edition = "2021"
+description = "Library to generate globally unique identifiers locally without coordination in either simple or multi-threaded and scalable solutions, preventing duplication and collision between the identifiers without any kind of connection between all FSUID Nodes."
+repository = "https://github.com/futurizestudios/fsdk_uid-rust"
+authors = ["Miguel Lopes <miguel.lopes@miguelallopes.dev>"]
+keywords = ["futurizestudios", "id", "identifier", "fsdk", "fsuid"]
+
+[dependencies]
+chrono = "0.4"
